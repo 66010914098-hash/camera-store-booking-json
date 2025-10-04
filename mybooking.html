@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="th"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>การจองของฉัน — Klonglens²</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header><div class="nav">
+  <div class="brand"><div class="logo">KL</div><span>Klonglens² Camera</span></div>
+  <div class="links">
+    <a href="/">Home</a>
+    <a href="/booking.html">Booking</a>
+    <a href="/mybooking.html">My Booking</a>
+    <a id="authLink" href="/login.html" class="cta">Login</a>
+  </div>
+</div></header>
+<main>
+  <h1>การจองของฉัน</h1>
+  <div class="form-box">
+    <div class="field"><input id="emailLookup" type="email" placeholder="พิมพ์อีเมลของคุณ"></div>
+    <button id="fetchMyBookings" class="btn primary">ดึงข้อมูลการจอง</button>
+  </div>
+  <div id="bookingTable"></div>
+</main>
+<script src="script.js"></script>
+</body></html>
